@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "plane",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseTexture": {
+          "__uuid__": "01bf8520-93b9-43d2-97b9-88e5ff733b2a"
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true
+      }
+    }
+  }
+}
