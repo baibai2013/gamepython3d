@@ -6,6 +6,26 @@
     [
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "excluded-modules": [
@@ -13,7 +33,10 @@
   ],
   "group-list": [
     "default",
-    "ui"
+    "ui",
+    "wall",
+    "player",
+    "box"
   ],
   "start-scene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
   "design-resolution-width": 1334,

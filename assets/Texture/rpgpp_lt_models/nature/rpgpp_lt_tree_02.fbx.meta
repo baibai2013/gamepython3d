@@ -1,0 +1,167 @@
+{
+  "ver": "1.1.0",
+  "uuid": "ad7a5768-b2e0-4516-9d4f-fb1480147839",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "f7ec215b-2046-40d8-a80c-7bb83bf06bd0",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "rpgpp_lt_tree_02.mesh": {
+      "ver": "1.0.1",
+      "uuid": "8d9b9718-82e9-4629-ac6c-e89cb999e396",
+      "verts": 259,
+      "tris": 477,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0384383089840412,
+        "y": 3.63584995444199e-10,
+        "z": -0.0121950292959809
+      },
+      "maxPos": {
+        "x": 0.0240428540855646,
+        "y": 0.0789156258106232,
+        "z": 0.0155077166855335
+      },
+      "name": "rpgpp_lt_tree_02.mesh",
+      "subMetas": {}
+    },
+    "rpgpp_lt_tree_02.prefab": {
+      "ver": "1.2.7",
+      "uuid": "0a446cee-cf7f-4379-9624-8adc0498dfd4",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "rpgpp_lt_tree_02.prefab",
+      "subMetas": {}
+    },
+    "rpgpp_lt_mat_a.mtl": {
+      "ver": "1.0.3",
+      "uuid": "575b70f2-1267-490e-af52-e0a21a0d585c",
+      "dataAsSubAsset": null,
+      "name": "rpgpp_lt_mat_a.mtl",
+      "subMetas": {}
+    }
+  }
+}

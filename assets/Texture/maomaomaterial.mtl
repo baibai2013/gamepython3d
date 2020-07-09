@@ -1,6 +1,6 @@
 {
   "__type__": "cc.Material",
-  "_name": "New Material",
+  "_name": "maomaomaterial",
   "_objFlags": 0,
   "_native": "",
   "_effectAsset": {
@@ -9,14 +9,41 @@
   "_techniqueIndex": 0,
   "_techniqueData": {
     "0": {
-      "defines": {
-        "USE_DIFFUSE_TEXTURE": true
-      },
       "props": {
         "diffuseTexture": {
           "__uuid__": "2d85283b-a580-4da3-809e-1c5a05a52d8f"
+        },
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "emissiveColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "specularColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
         }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true,
+        "INPUT_IS_GAMMA": false,
+        "OUTPUT_TO_GAMMA": true
       }
+    },
+    "1": {
+      "props": {},
+      "defines": {}
     }
   }
 }

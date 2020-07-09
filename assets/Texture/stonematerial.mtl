@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.Material",
+  "_name": "stonematerial",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseTexture": {
+          "__uuid__": "9a0d75f8-fd1a-409f-9dc8-aad18e05bf10"
+        }
+      },
+      "defines": {
+        "OUTPUT_TO_GAMMA": true,
+        "USE_ALPHA_TEST": false,
+        "USE_DIFFUSE_TEXTURE": true
+      }
+    }
+  }
+}

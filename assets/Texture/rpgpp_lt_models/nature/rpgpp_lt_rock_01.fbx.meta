@@ -1,0 +1,167 @@
+{
+  "ver": "1.1.0",
+  "uuid": "a7e62289-e755-4e73-820a-3b75cca6dac6",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "32f44ce8-2e23-4b02-b84f-5d204cd582b8",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "rpgpp_lt_rock_01.mesh": {
+      "ver": "1.0.1",
+      "uuid": "fb0815ac-b6c8-4dd9-934e-3b8a76468591",
+      "verts": 55,
+      "tris": 100,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0145059023052454,
+        "y": -0.00885407812893391,
+        "z": -0.0103774322196841
+      },
+      "maxPos": {
+        "x": 0.0116676902398467,
+        "y": 0.0112749906256795,
+        "z": 0.0111401807516813
+      },
+      "name": "rpgpp_lt_rock_01.mesh",
+      "subMetas": {}
+    },
+    "rpgpp_lt_rock_01.prefab": {
+      "ver": "1.2.7",
+      "uuid": "c7cf58ee-08e4-456a-822f-5acc5600ea52",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "rpgpp_lt_rock_01.prefab",
+      "subMetas": {}
+    },
+    "rpgpp_lt_mat_a.mtl": {
+      "ver": "1.0.3",
+      "uuid": "6f5c93fc-4c47-4983-9342-fea682397bc7",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 204,\n          \"g\": 204,\n          \"b\": 204,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"e475abcc-836e-4d78-93cf-42f36eb42dba\"\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true,\n        \"OUTPUT_TO_GAMMA\": true\n      }\n    }\n  }\n}",
+      "name": "rpgpp_lt_mat_a.mtl",
+      "subMetas": {}
+    }
+  }
+}

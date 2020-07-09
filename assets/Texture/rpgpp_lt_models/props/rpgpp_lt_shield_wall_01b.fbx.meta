@@ -1,0 +1,167 @@
+{
+  "ver": "1.1.0",
+  "uuid": "faeae842-b0a1-41f2-a0c6-5b688d1044ae",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "ffd29214-5898-4c1c-80e6-2ca5543437c2",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "rpgpp_lt_shield_wall_01b.mesh": {
+      "ver": "1.0.1",
+      "uuid": "0b18d9cb-29e4-4d48-8f34-ef6a87710995",
+      "verts": 127,
+      "tris": 168,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.00501049496233463,
+        "y": -0.00500072445720434,
+        "z": -0.000338827405357733
+      },
+      "maxPos": {
+        "x": 0.00498950481414795,
+        "y": 0.00499927438795567,
+        "z": 0.000887434638570994
+      },
+      "name": "rpgpp_lt_shield_wall_01b.mesh",
+      "subMetas": {}
+    },
+    "rpgpp_lt_shield_wall_01b.prefab": {
+      "ver": "1.2.7",
+      "uuid": "5ceef00d-931a-4151-97d9-7bec6890e4a6",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "rpgpp_lt_shield_wall_01b.prefab",
+      "subMetas": {}
+    },
+    "rpgpp_lt_mat_a.mtl": {
+      "ver": "1.0.3",
+      "uuid": "a06b5ec2-03d6-49d2-b476-0814eea8af3b",
+      "dataAsSubAsset": null,
+      "name": "rpgpp_lt_mat_a.mtl",
+      "subMetas": {}
+    }
+  }
+}

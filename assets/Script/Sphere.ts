@@ -48,19 +48,36 @@ export default class Sphere extends cc.Component {
     onLoad() {
         let collider = this.getComponent(cc.Collider3D)
         collider.on('trigger-enter', this.triggerEnter, this)
+        collider.on('collision-enter', this.collistionEnter, this)
     }
 
     addBody() {
         let newBody: cc.Node = cc.instantiate(this.bodyPrefab)
         newBody.setPosition(this.node.x, this.node.y,this.node.z)
         this.node.parent.addChild(newBody)
-        let delta = this._direction.mul(newBody.height)
+        let delta = this._direction.mul(newBody.width*20)
         this.node.setPosition(this.node.x + delta.x, this.node.y + delta.y,this.node.z + delta.z)
         this.bodys.push(newBody)
     }
 
+    collistionEnter(event){
+        console.log(event.type, event);
+       
+    }
+
     triggerEnter(event) {
         console.log(event.type, event);
+
+        if(event.otherCollider.node.name == "wall1" ||event.otherCollider.node.name == "wall2"){
+            this.direction= cc.v3(-this._direction.x,this._direction.y,this._direction.z)
+            return
+        }
+
+        if(event.otherCollider.node.name == "wall3" ||event.otherCollider.node.name == "wall4"){
+            this.direction= cc.v3(this._direction.x,this._direction.y,-this._direction.z)
+            return
+        }
+
         event.otherCollider.node.destroy()
         this.addBody()
         if (this.mainScene) {
@@ -81,6 +98,9 @@ export default class Sphere extends cc.Component {
     }
 
     update(dt) {
+
+
+
         //head
         this.node.x += this._direction.x * this.speed * dt
         this.node.z += this._direction.z * this.speed * dt
@@ -129,9 +149,16 @@ export default class Sphere extends cc.Component {
             tempVec3.subSelf(this.startPostionSnapshot[i])
             let body = this.bodys[i]
             if (body) {
+                if (tempVec3.x == 0 && tempVec3.z == 0){}else{
+                    this.tempVec.x = tempVec3.x
+                    this.tempVec.y = tempVec3.z
+                    this.tempAngles.y = this.tempVec.signAngle(cc.Vec2.RIGHT) * Sphere.R_TO_D
+                    body.eulerAngles =this.tempAngles
+                }
                 //身体移动一份目标向量大小
                 tempVec3.divSelf(bodySpeed)
                 body.setPosition(body.x + tempVec3.x, body.y + tempVec3.y, body.z + tempVec3.z)
+
             }
         }
 

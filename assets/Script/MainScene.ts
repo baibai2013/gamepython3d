@@ -49,7 +49,7 @@ export default class MainScene extends cc.Component {
     addBox() {
 
         let box = cc.instantiate(this.boxPrefab)
-        box.y = -56;
+        box.y = -140;
         box.x = this.getRandomRange(this.planeNode.x - 1000, this.planeNode.x + 1000,)
         box.z = this.getRandomRange(this.planeNode.z - 1000, this.planeNode.z + 1000,)
         this.rootNode.addChild(box)
